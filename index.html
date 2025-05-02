@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Vanilla JS Mini App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="app">
+    <h1 id="greeting"></h1>
+    <button id="logout-btn" style="display: none;">Logout</button>
+    <form id="login-form">
+      <input type="text" placeholder="Enter your name" required />
+      <button>Login</button>
+    </form>
+
+    <div id="clock">00:00:00</div>
+
+    <form id="todo-form" style="display:none;">
+      <input type="text" placeholder="Write a todo" required />
+      <button>Add</button>
+    </form>
+    <ul id="todo-list"></ul>
+
+    <div id="weather"> Getting weather...</div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

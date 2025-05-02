@@ -1,0 +1,59 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #333;
+    transition: background-image 0.5s ease-in-out;
+  }
+  
+  h1, h2, h3 {
+    margin: 10px 0;
+  }
+  
+  #clock {
+    font-size: 3rem;
+    margin-top: 20px;
+  }
+  
+  #login-form, #todo-form {
+    margin: 20px auto;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    width: 200px;
+  }
+  
+  button {
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #ff69b4;
+    color: white;
+    cursor: pointer;
+  }
+  
+  #weather {
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin: 5px 0;
+  }
+  
